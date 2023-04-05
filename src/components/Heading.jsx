@@ -1,23 +1,23 @@
 import React from "react";
-import "./index.css";
-import ecell from "./e cell logo.png";
+import "../index.css";
+import ecell from "../assets/e cell logo.png";
 
-function Heading() {
+function Heading({logo, heading, title, mainImg}) {
   return (
     <div>
       <div className="logo">
         {" "}
-        <img src={ecell} />
+        <img src={logo} />
       </div>
       {/* <img className= "logo"  src={ecell}/> */}
       <div class="Heading">
-        <h1>THE ENTREPRENEURSHIP CELL CHITKARA UNIVERSITY</h1>
-        <h2>"Creating job creators"</h2>
+        <h1>{heading}</h1>
+        <h2>"{title}"</h2>
       </div>
 
       <img
         className="Image"
-        src="https://www.chitkara.edu.in/ciif/images/about-CIIF.jpg "
+        src={mainImg}
       />
     </div>
   );
