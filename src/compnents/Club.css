@@ -3,25 +3,25 @@
     margin:0;
     box-sizing: border-box;
 }
-body{
-    /* height: 100vh; */
-    /* background: linear-gradient(50deg,#d2001a,#7465ff,#f48e21,#23d5ab); */
+/* body{
+    height: 100vh;
+    background: linear-gradient(50deg,#d2001a,#7465ff,#f48e21,#23d5ab);
     background-image: url('https://cdn.pixabay.com/photo/2015/03/02/21/20/pattern-656585__340.jpg');
-    /* background-image:url('https://wp-media.petersons.com/blog/wp-content/uploads/2019/11/04133514/Student-Club-2.jpg'); */
+    background-image:url('https://wp-media.petersons.com/blog/wp-content/uploads/2019/11/04133514/Student-Club-2.jpg');
     background-repeat:no-repeat;
     background-size: cover;
-    /* height:auto; */
-    /* width: 100%; */
+    height:auto;
+    width: 100%;
     max-height: max-content;
     background-attachment: fixed;
     background-position: center center;
     padding: 2%;
-    /* background-position: fixed; */
+    background-position: fixed;
     
-    /* background-size: 300% 300%; */
-    /* animation: color 12s ease-in-out infinite; */
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
     
-}
+} */
 .background{
     /* padding: 5%; */
     width:100%;
@@ -101,7 +101,3 @@ body{
 
     }
 }
-#back{
-    background-image: none !important;
-}
-
